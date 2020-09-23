@@ -245,7 +245,7 @@ Phone: +220 765 8022<br></p>
             </div>
             <div class="mbr-footer-content col-xs-12 col-md-3">
                 <p></p><p><strong>Links</strong><br>
-<a href="../user/request" class="text-white">Send Request</a><br><a href="../user/viewrequest" class="text-white">View Request</a><br><a href="camps" class="text-white">Camps</a><br><a href="about" class="text-white">About</a><br><a href="contact" class="text-white">Contact us</a><br></p><p></p>
+<a href="../user/request" class="text-white">Send Request</a><br><a href="user/viewrequest" class="text-white">View Request</a><br><a href="camps" class="text-white">Camps</a><br><a href="about" class="text-white">About</a><br><a href="contact" class="text-white">Contact us</a><br></p><p></p>
             </div>
 
         </div>
