@@ -100,7 +100,7 @@ $query=mysqli_query($MySQLi_CON,"select * from bloodnews ORDER BY posttime DESC 
 
         <div class="blog-header">
             <h1 class="blog-title text-lg-center">The Bloodbank Blog </h1>
-            <p class="lead blog-description text-lg-center" >The official blog of Bloodbank.</p>
+            <p class="lead blog-description text-lg-center" >The official blog of Bloodbank Gambia.</p>
         </div>
 
         <div class="row">
