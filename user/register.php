@@ -213,19 +213,19 @@ if(isset($_SESSION['userSession']))
       <td>&nbsp;</td>
       
     </tr>
-<tr class="captchacode"><td class="captchacode lefttd">You're not a robot</td><td> <img src='captcha.php?rand=<?php echo rand();?>' id='captchaimg'/></td></tr>
+<!-- <tr class="captchacode"><td class="captchacode lefttd">You're not a robot</td><td> <img src='captcha.php?rand=<?php echo rand();?>' id='captchaimg'/></td></tr> -->
 <tr>
       <td>&nbsp;</td>
       
     </tr>
-                        <tr><td> Can't read the image?</td><td>Click <a href='javascript: refreshCaptcha();'>here</a> to refresh the captcha code.</td></tr>
+                       <!--  <tr><td> Can't read the image?</td><td>Click <a href='javascript: refreshCaptcha();'>here</a> to refresh the captcha code.</td></tr> -->
 
 
-                        <tr>
+<!--                         <tr>
                             <td>&nbsp;</td>
                             <td>&nbsp;</td>
-                        </tr>
-<tr><td class="lefttd">Enter the code above here </td><td>: <input id="captcha_code" class="text-input" name="captcha_code" type="text" required /></td></tr>
+                        </tr> -->
+<!-- <tr><td class="lefttd">Enter the code above here </td><td>: <input id="captcha_code" class="text-input" name="captcha_code" type="text" required /></td></tr> -->
 
       <?php if(isset($msg2)){?>
    <tr>  <td class="lefttd"> </td> <td><?php echo $msg2;?></td> </tr>
