@@ -58,7 +58,7 @@
                         <a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="https://mobirise.com/" aria-expanded="false"><p style="font-size: 17px;">HELP</p></a>
                         <div class="dropdown-menu">
                                        <a class="dropdown-item" href="contact">Contact us</a>
-                          <a class="dropdown-item" href="faq.htm" target="_blank">FAQS</a>
+                          <a class="dropdown-item" href="faqs.php" target="_blank">FAQS</a>
                         </div>
                       </li>
                     </ul>
