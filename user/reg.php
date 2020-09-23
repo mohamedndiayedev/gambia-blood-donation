@@ -24,10 +24,10 @@ if(isset($_POST['btn-register']))
 	
 	$new_password = password_hash($password, PASSWORD_DEFAULT);
 
-	if(empty($_SESSION['captcha_code'] ) || strcasecmp($_SESSION['captcha_code'], $_POST['captcha_code']) != 0){  
+/* 	if(empty($_SESSION['captcha_code'] ) || strcasecmp($_SESSION['captcha_code'], $_POST['captcha_code']) != 0){  
 		$msg2="<span style='color:red'>The Validation code does not match!</span>";// Captcha verification is incorrect.		
 	}else{// Captcha verification is Correct. Final Code Execute here!
-		$msg2="<span style='color:green'>The Validation code has been matched.</span>";		
+		$msg2="<span style='color:green'>The Validation code has been matched.</span>";	 */	
 
 	
 	if($password!=$con_password){
@@ -114,7 +114,7 @@ if(isset($_POST['btn-register']))
 
 
 	}
-}
+
 	$MySQLi_CON->close();
 
 ?>
